@@ -15,30 +15,16 @@ header {
     color: #ffffff;
 }
 
-/* remove header
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-} */
+/* remove header*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* remvoe header h1
-header h1 .seo {
-    color: #d9dcd6;
-} */
+/* remvoe header h1 */
 .seo {
     color: #d9dcd6;
 }
-/* remove header
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-} */
+/* remove header*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,15 +32,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*replace this with li element selector
-header nav ul {
-    list-style-type: none;
-}
-
- header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-} */
+/*replace this with li element selector*/
 li {
     display: inline-block;
     margin-left: 25px;
@@ -67,15 +45,7 @@ a {
 p {
     font-size: 16px;
 }
-/* remove hero class and use figure instd
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-} */
+/* remove hero class and use figure instd */
 figure {
     height: 800px;
     width: 100%;
@@ -111,94 +81,23 @@ figure {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* use benefits class selector with section tag
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
+/* use benefits class selector with section tag*/
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*use general h3 selector instd
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
+/*use general h3 selector instd*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* use <benefits> parent class selector with img tag
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
+/* use <benefits> parent class selector with img tag*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* use <content> class selector with section tag
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
+/* use <content> class selector with section tag*/
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -207,36 +106,11 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* use <content> class selector with img tag
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
+/* use <content> class selector with img tag*/
 .content img {
     max-height: 200px;
 }
-/* remove class selector and use general h2 selector
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
+/* remove class selector and use general h2 selector */
 
 h2 {
     margin-bottom: 20px;
