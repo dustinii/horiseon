@@ -14,19 +14,26 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
-/* remove header*/
+/* different header styles */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* remvoe header h1 */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* syle for span */
 .seo {
     color: #d9dcd6;
 }
-
-/* remove header*/
+/* styles for links */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,8 +41,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-/*replace this with li element selector*/
+/* styles for li, p, and a */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -49,8 +55,7 @@ a {
 p {
     font-size: 16px;
 }
-
-/* remove hero class and use figure instd */
+/* background picture under header */
 figure {
     height: 800px;
     width: 100%;
@@ -59,7 +64,7 @@ figure {
     background-size: cover;
     background-position: center;
 }
-
+/* floats for images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,7 +80,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* section styles in main */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,11 +89,11 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* image styles in main */
 main img {
     max-height: 200px;
 }
-
+/* styles for aside blocks */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -99,34 +104,19 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* use aside selector with section tag*/
+/* styles for sections under asides */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-/* use aside selector with img tag*/
+/* styles for imgs under asides */
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* remove class selector and use general h2 selector */
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*use general h3 selector instd*/
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* changed div to footer tag and removed footer class */
+/* footer styles */
 footer {
     padding: 30px;
     clear: both;
