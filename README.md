@@ -26,4 +26,4 @@ Deployed Application link
 - https://dustinii.github.io/horiseon/Links
 
 ## Licenses
-No lisences required.
+No licences required.
